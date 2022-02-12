@@ -1,6 +1,7 @@
 module.exports = {
   root: true,
-  extends: ['plugin:tailwindcss/recommended'],
+  extends: ['plugin:tailwindcss/recommended', 'plugin:@next/next/recommended'],
+  parser: '@babel/eslint-parser',
   env: {
     browser: true,
     node: true,
@@ -8,18 +9,6 @@ module.exports = {
   settings: {
     tailwindcss: {
       callees: ['classNames'],
-      whitelist: [
-        'peer',
-        'font-.+',
-        'list-dot',
-        'align-super',
-        'bg-gradient-primary',
-        'bg-gradient-secondary',
-        'bg-gradient-tertiary',
-        'swiper-.+',
-        'max-w-screen-.+',
-        'form-.+',
-      ],
       prependCustom: true,
     },
   },

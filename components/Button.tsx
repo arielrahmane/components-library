@@ -8,5 +8,5 @@ interface Props {
 export function Button(props: Props): JSX.Element {
   const { children } = props;
 
-  return <button>{children}</button>;
+  return <button className="p-4 m-4 bg-green-600">{children}</button>;
 }
