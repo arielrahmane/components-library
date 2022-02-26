@@ -2,6 +2,7 @@
   "name": "components-library",
   "private": true,
   "scripts": {
+    "dev": "next",
     "build": "next build",
     "start": "next start",
     "lint": "next lint"
