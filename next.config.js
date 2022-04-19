@@ -6,8 +6,8 @@ module.exports = {
       use: [
         defaultLoaders.babel,
       ],
-    })
+    });
 
-    return config
+    return config;
   },
 };
